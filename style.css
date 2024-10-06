@@ -1,0 +1,178 @@
+body {
+  background-color: #000000;
+}
+
+div.scrollmenu {
+  background-color: #000;
+  overflow: auto;
+  white-space: nowrap;
+}
+
+div.scrollmenu a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+
+div.scrollmenu a:hover {
+  background-color: #000;
+}
+
+.Beta {
+  color: #fff;
+  background-color: #fff;
+}
+
+.Items {
+  font-family: "Trebuchet MS";
+  position: relative;
+  font-size: 25px;
+  font-style: Verdana;
+  left: 465px;
+  color: #000;
+}
+
+.logo {
+  position: relative;
+  top: 80px;
+  left: 100px;
+}
+
+.more {
+  text-align: left;
+  position: relative;
+  top: 100px;
+  left: 0;
+  background-color: #000;
+  color: #fff;
+  font-family: "Trebuchet MS";
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.img1 {
+  position: relative;
+  left: 400px;
+  right: 300px;
+  top: 100px;
+}
+
+.img2 {
+  position: relative;
+  left: 400px;
+  bottom: -50px;
+}
+
+.img3 {
+  position: relative;
+  top: -100px;
+  left: 400px;
+  bottom: -300px;
+}
+
+.trendstitle {
+  border-width: 8px;
+  border-style: solid;
+  border-color: #fff;
+  text-align: center;
+  background-color: #000;
+  color: #fff;
+  font-family: "Trebuchet MS";
+}
+
+.trends {
+  position: relative;
+  background-color: #000;
+}
+
+.rank1,
+.rank2,
+.rank3,.rank4 {
+  position: relative;
+  font-size: 35px;
+  left: 500px;
+  color: #fff;
+}
+
+.A {
+  background-color: #000;
+  color: #FFD700;
+}
+
+.B {
+  background-color: black;
+  color: #C0C0C0;
+}
+
+.poster,
+.poster2 {
+  background-color: #000;
+}
+
+.C {
+  background-color: #000;
+  color: #CD7F32;
+}
+
+
+@media (max-width: 1200px) {
+  .Items {
+    font-size: 4vw; 
+    left: 50%; 
+    transform: translateX(-50%); 
+  }
+
+  .logo {
+    left: 50%; 
+    transform: translateX(-50%); 
+  }
+
+  .img1, .img2, .img3 {
+    left: 0; 
+    margin: 20px auto; 
+    padding: 0; 
+  }
+
+  .rank1, .rank2, .rank3, .rank4 {
+    font-size: 4vw; 
+    left: 0; 
+    text-align: center; 
+    margin: 10px auto; 
+  }
+}
+
+@media (max-width: 768px) {
+  .Items {
+    font-size: 5vw; 
+  }
+
+  .logo {
+    margin-top: 50px; 
+  }
+
+  .more {
+    padding: 15px; 
+    width: 90%; 
+  }
+
+  .rank1, .rank2, .rank3, .rank4 {
+    font-size: 5vw; 
+  }
+}
+
+@media (max-width: 480px) {
+  .Items {
+    font-size: 6vw; 
+  }
+
+  .more {
+    width: 95%; 
+  }
+
+  .rank1, .rank2, .rank3, .rank4 {
+    font-size: 6vw; 
+  }
+}
